@@ -8,7 +8,7 @@ namespace AElf.ConsensusPlayground.MainChain
     public class ConsensusContractInitializationProvider : IContractInitializationProvider
     {
         public Hash SystemSmartContractName => ConsensusSmartContractAddressNameProvider.Name;
-        public string ContractCodeName => "AElf.Contracts.Consensus.AEDPoS";
+        public string ContractCodeName => "AElf.Contracts.Consensus.Naive";
 
         public List<ContractInitializationMethodCall> GetInitializeMethodList(byte[] contractCode)
         {

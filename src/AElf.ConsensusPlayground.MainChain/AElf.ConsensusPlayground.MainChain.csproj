@@ -19,12 +19,15 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="AElf.Contracts.Configuration" Version="1.0.0-preview3-18424">
+        <ProjectReference Include="..\..\contract\AElf.Contracts.Consensus.Naive\AElf.Contracts.Consensus.Naive.csproj">
             <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
             <OutputItemType>Contract</OutputItemType>
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </PackageReference>
-        <PackageReference Include="AElf.Contracts.Consensus.AEDPoS" Version="1.0.0-preview3-18424">
+        </ProjectReference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AElf.Contracts.Configuration" Version="1.0.0-preview3-18424">
             <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
             <OutputItemType>Contract</OutputItemType>
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
