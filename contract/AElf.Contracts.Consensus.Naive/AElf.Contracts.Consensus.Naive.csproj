@@ -5,16 +5,16 @@
         <RootNamespace>AElf.Contracts.Consensus.Naive</RootNamespace>
         <IsContract>true</IsContract>
     </PropertyGroup>
-    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-        <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
-    </PropertyGroup>
-    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-        <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
-    </PropertyGroup>
+
     <ItemGroup>
-        <ContractCode Include="..\..\protobuf\greeter_contract.proto">
-            <Link>Protobuf\Proto\greeter_contract.proto</Link>
-        </ContractCode>
+        <ContractBase Include="..\..\protobuf\acs4.proto">
+            <Link>Protobuf\Proto\base\acs4.proto</Link>
+        </ContractBase>
     </ItemGroup>
 
-</Project> 
+    <ItemGroup>
+        <ContractCode Include="..\..\protobuf\naive_consensus_contract.proto">
+            <Link>Protobuf\Proto\naive_consensus_contract.proto</Link>
+        </ContractCode>
+    </ItemGroup>
+</Project>
