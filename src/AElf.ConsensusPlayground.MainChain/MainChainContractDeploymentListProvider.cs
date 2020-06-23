@@ -19,8 +19,6 @@ namespace AElf.ConsensusPlayground.MainChain
             {
                 VoteSmartContractAddressNameProvider.Name,
                 ProfitSmartContractAddressNameProvider.Name,
-                ElectionSmartContractAddressNameProvider.Name,
-                TreasurySmartContractAddressNameProvider.Name,
                 ParliamentSmartContractAddressNameProvider.Name,
                 AssociationSmartContractAddressNameProvider.Name,
                 ReferendumSmartContractAddressNameProvider.Name,
@@ -29,8 +27,7 @@ namespace AElf.ConsensusPlayground.MainChain
                 ConfigurationSmartContractAddressNameProvider.Name,
                 ConsensusSmartContractAddressNameProvider.Name,
                 TokenConverterSmartContractAddressNameProvider.Name,
-                TokenHolderSmartContractAddressNameProvider.Name,
-                EconomicSmartContractAddressNameProvider.Name
+                TokenHolderSmartContractAddressNameProvider.Name
             };
         }
     }

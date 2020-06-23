@@ -5,25 +5,22 @@
         <RootNamespace>AElf.ConsensusPlayground.MainChain</RootNamespace>
     </PropertyGroup>
 
-    <ItemGroup>
-        <PackageReference Include="AElf.Blockchains.BasicBaseChain" Version="1.0.0-preview3-18424" />
-        <PackageReference Include="AElf.Contracts.Deployer" Version="1.0.0-preview3-18424" />
-        <PackageReference Include="AElf.Kernel.Token" Version="1.0.0-preview3-18424" />
-        <PackageReference Include="AElf.Kernel.Core" Version="1.0.0-preview3-18424" />
-        <PackageReference Include="AElf.EconomicSystem" Version="1.0.0-preview3-18424" />
-        <PackageReference Include="AElf.GovernmentSystem" Version="1.0.0-preview3-18424" />
-    </ItemGroup>
-
     <PropertyGroup>
         <NoWarn>0436</NoWarn>
     </PropertyGroup>
 
+    <ItemGroup>
+        <PackageReference Include="AElf.Blockchains.BasicBaseChain" Version="1.0.0-preview3-18424" />
+        <PackageReference Include="AElf.Contracts.Deployer" Version="1.0.0-preview3-18424" />
+    </ItemGroup>
+    
     <ItemGroup>
         <ProjectReference Include="..\..\contract\AElf.Contracts.Consensus.Naive\AElf.Contracts.Consensus.Naive.csproj">
             <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
             <OutputItemType>Contract</OutputItemType>
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </ProjectReference>
+        <ProjectReference Include="..\AElf.ConsensusPlayground.BasicBaseChain\AElf.ConsensusPlayground.BasicBaseChain.csproj" />
         <ProjectReference Include="..\AElf.ConsensusPlayground.Consensus.Naive\AElf.ConsensusPlayground.Consensus.Naive.csproj" />
     </ItemGroup>
 
@@ -115,12 +112,6 @@
         </ContractStub>
         <ContractStub Include="..\..\protobuf\acs10.proto">
             <Link>Protobuf\Proto\acs10.proto</Link>
-        </ContractStub>
-        <ContractStub Include="..\..\protobuf\aedpos_contract.proto">
-            <Link>Protobuf\Proto\aedpos_contract.proto</Link>
-        </ContractStub>
-        <ContractStub Include="..\..\protobuf\aedpos_contract_impl.proto">
-            <Link>Protobuf\Proto\aedpos_contract_impl.proto</Link>
         </ContractStub>
         <ContractStub Include="..\..\protobuf\cross_chain_contract.proto">
             <Link>Protobuf\Proto\cross_chain_contract.proto</Link>
