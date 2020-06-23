@@ -74,7 +74,6 @@ namespace AElf.ConsensusPlayground.BasicBaseChain
 
             hostBuilderContext.Configuration = newConfig;
 
-            Configure<EconomicOptions>(newConfig.GetSection("Economic"));
             Configure<ChainOptions>(option =>
             {
                 option.ChainId = ChainHelper.ConvertBase58ToChainId(newConfig["ChainId"]);
