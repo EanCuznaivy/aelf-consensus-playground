@@ -24,6 +24,7 @@
             <OutputItemType>Contract</OutputItemType>
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </ProjectReference>
+        <ProjectReference Include="..\AElf.ConsensusPlayground.Consensus.Naive\AElf.ConsensusPlayground.Consensus.Naive.csproj" />
     </ItemGroup>
 
     <ItemGroup>

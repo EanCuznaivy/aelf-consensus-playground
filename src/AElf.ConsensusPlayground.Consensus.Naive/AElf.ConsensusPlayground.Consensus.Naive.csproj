@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="AElf.Kernel.Consensus.Scheduler.RxNet" Version="1.0.0-preview3-18424" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ContractStub Include="..\..\protobuf\acs4.proto">
+            <Link>Protobuf/Proto/acs4.proto</Link>
+        </ContractStub>
+        <ContractStub Include="..\..\protobuf\naive_consensus_contract.proto">
+            <Link>Protobuf/Proto/naive_consensus_contract.proto</Link>
+        </ContractStub>
+    </ItemGroup>
+
+</Project>

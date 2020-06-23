@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AElf.Contracts.Consensus.Na
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AElf.ConsensusPlayground.MainChain", "src\AElf.ConsensusPlayground.MainChain\AElf.ConsensusPlayground.MainChain.csproj", "{FC1AE2AE-89C0-413E-99C1-FD954390611F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AElf.ConsensusPlayground.Consensus.Naive", "src\AElf.ConsensusPlayground.Consensus.Naive\AElf.ConsensusPlayground.Consensus.Naive.csproj", "{D90189D9-9F10-4B84-BD64-C76681430401}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,10 +35,15 @@ Global
 		{FC1AE2AE-89C0-413E-99C1-FD954390611F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC1AE2AE-89C0-413E-99C1-FD954390611F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC1AE2AE-89C0-413E-99C1-FD954390611F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D90189D9-9F10-4B84-BD64-C76681430401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D90189D9-9F10-4B84-BD64-C76681430401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D90189D9-9F10-4B84-BD64-C76681430401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D90189D9-9F10-4B84-BD64-C76681430401}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D4D34CF5-49F5-43B9-B596-C83A41B32BB2} = {21D85A91-5BB8-4912-8107-49435A461AAC}
 		{A9D15733-CDFC-44F3-AFEC-AA6715A4C8B1} = {5C980166-C987-470D-AEE0-3858A170A903}
 		{FC1AE2AE-89C0-413E-99C1-FD954390611F} = {21D85A91-5BB8-4912-8107-49435A461AAC}
+		{D90189D9-9F10-4B84-BD64-C76681430401} = {21D85A91-5BB8-4912-8107-49435A461AAC}
 	EndGlobalSection
 EndGlobal
