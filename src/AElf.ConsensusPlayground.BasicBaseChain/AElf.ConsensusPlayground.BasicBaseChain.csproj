@@ -5,18 +5,18 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="AElf.Contracts.Genesis" Version="1.0.0-preview3-18424" />
-      <PackageReference Include="AElf.CrossChain" Version="1.0.0-preview3-18424" />
-      <PackageReference Include="AElf.CrossChain.Grpc" Version="1.0.0-preview3-18424" />
-      <PackageReference Include="AElf.EconomicSystem" Version="1.0.0-preview3-18424" />
-      <PackageReference Include="AElf.GovernmentSystem" Version="1.0.0-preview3-18424" />
-      <PackageReference Include="AElf.Kernel" Version="1.0.0-preview3-18424" />
-      <PackageReference Include="AElf.Kernel.SmartContract.Parallel" Version="1.0.0-preview3-18424" />
-      <PackageReference Include="AElf.Kernel.Token" Version="1.0.0-preview3-18424" />
-      <PackageReference Include="AElf.OS" Version="1.0.0-preview3-18424" />
-      <PackageReference Include="AElf.Runtime.CSharp" Version="1.0.0-preview3-18424" />
-      <PackageReference Include="AElf.RuntimeSetup" Version="1.0.0-preview3-18424" />
-      <PackageReference Include="AElf.WebApp.Web" Version="1.0.0-preview3-18424" />
+      <PackageReference Include="AElf.Contracts.Genesis" Version="1.0.0-preview3" />
+      <PackageReference Include="AElf.CrossChain" Version="1.0.0-preview3" />
+      <PackageReference Include="AElf.CrossChain.Grpc" Version="1.0.0-preview3" />
+      <PackageReference Include="AElf.EconomicSystem" Version="1.0.0-preview3" />
+      <PackageReference Include="AElf.GovernmentSystem" Version="1.0.0-preview3" />
+      <PackageReference Include="AElf.Kernel" Version="1.0.0-preview3" />
+      <PackageReference Include="AElf.Kernel.SmartContract.Parallel" Version="1.0.0-preview3" />
+      <PackageReference Include="AElf.Kernel.Token" Version="1.0.0-preview3" />
+      <PackageReference Include="AElf.OS" Version="1.0.0-preview3" />
+      <PackageReference Include="AElf.Runtime.CSharp" Version="1.0.0-preview3" />
+      <PackageReference Include="AElf.RuntimeSetup" Version="1.0.0-preview3" />
+      <PackageReference Include="AElf.WebApp.Web" Version="1.0.0-preview3" />
     </ItemGroup>
 
     <ItemGroup>
